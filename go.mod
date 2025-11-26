@@ -1,10 +1,10 @@
 module github.com/quay/clair/v4
 
-go 1.20
+go 1.22.0
 
 require (
 	github.com/go-stomp/stomp/v3 v3.0.5
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.7.0
 	github.com/google/go-containerregistry v0.6.1
 	github.com/google/uuid v1.3.0
 	github.com/jackc/pgconn v1.14.0
@@ -12,7 +12,7 @@ require (
 	github.com/klauspost/compress v1.16.5
 	github.com/ldelossa/responserecorder v1.0.2-0.20210711162258-40bec93a9325
 	github.com/prometheus/client_golang v1.15.1
-	github.com/quay/clair/config v1.1.3
+	github.com/quay/clair/config v1.4.3
 	github.com/quay/claircore v1.5.1
 	github.com/quay/zlog v1.1.4
 	github.com/remind101/migrate v0.0.0-20170729031349-52c1edff7319
