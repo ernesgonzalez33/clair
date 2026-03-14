@@ -1,6 +1,6 @@
 module github.com/quay/clair/v4
 
-go 1.20
+go 1.25.0
 
 require (
 	github.com/go-stomp/stomp/v3 v3.0.5
@@ -83,7 +83,7 @@ require (
 	go.opentelemetry.io/otel/metric v0.38.1 // indirect
 	golang.org/x/crypto v0.8.0 // indirect
 	golang.org/x/mod v0.10.0 // indirect
-	golang.org/x/sys v0.8.0 // indirect
+	golang.org/x/sys v0.42.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 	golang.org/x/tools v0.8.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
