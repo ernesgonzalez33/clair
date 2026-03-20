@@ -1,10 +1,10 @@
 module github.com/quay/clair/v4
 
-go 1.20
+go 1.25.0
 
 require (
 	github.com/go-stomp/stomp/v3 v3.0.5
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/google/go-containerregistry v0.6.1
 	github.com/google/uuid v1.3.0
 	github.com/jackc/pgconn v1.14.0
@@ -28,8 +28,8 @@ require (
 	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.15.1
 	go.opentelemetry.io/otel/sdk v1.15.1
 	go.opentelemetry.io/otel/trace v1.15.1
-	golang.org/x/net v0.10.0
-	golang.org/x/sync v0.2.0
+	golang.org/x/net v0.52.0
+	golang.org/x/sync v0.20.0
 	golang.org/x/time v0.3.0
 	gopkg.in/square/go-jose.v2 v2.6.0
 	gopkg.in/yaml.v3 v3.0.1
@@ -81,11 +81,11 @@ require (
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/ulikunitz/xz v0.5.11 // indirect
 	go.opentelemetry.io/otel/metric v0.38.1 // indirect
-	golang.org/x/crypto v0.8.0 // indirect
-	golang.org/x/mod v0.10.0 // indirect
-	golang.org/x/sys v0.8.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
-	golang.org/x/tools v0.8.0 // indirect
+	golang.org/x/crypto v0.49.0 // indirect
+	golang.org/x/mod v0.34.0 // indirect
+	golang.org/x/sys v0.42.0 // indirect
+	golang.org/x/text v0.35.0 // indirect
+	golang.org/x/tools v0.43.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	lukechampine.com/uint128 v1.2.0 // indirect
 	modernc.org/cc/v3 v3.40.0 // indirect
