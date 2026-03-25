@@ -14,7 +14,7 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/klauspost/compress/zstd"
 	"github.com/quay/claircore/libvuln"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 
 	"github.com/quay/clair/v4/internal/httputil"
 )

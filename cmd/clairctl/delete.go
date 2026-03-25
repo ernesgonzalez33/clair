@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/quay/claircore"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 
 	"github.com/quay/clair/v4/internal/httputil"
 )

@@ -14,7 +14,7 @@ import (
 	"github.com/quay/claircore/libvuln/jsonblob"
 	"github.com/quay/claircore/libvuln/updates"
 	_ "github.com/quay/claircore/updater/defaults"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 
 	"github.com/quay/clair/v4/internal/httputil"
 )
