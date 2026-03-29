@@ -1,10 +1,10 @@
 module github.com/quay/clair/v4
 
-go 1.20
+go 1.21
 
 require (
 	github.com/go-stomp/stomp/v3 v3.0.5
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.7.0
 	github.com/google/go-containerregistry v0.6.1
 	github.com/google/uuid v1.3.0
 	github.com/jackc/pgconn v1.14.0
@@ -19,7 +19,7 @@ require (
 	github.com/rs/zerolog v1.29.1
 	github.com/streadway/amqp v1.0.0
 	github.com/tomnomnom/linkheader v0.0.0-20180905144013-02ca5825eb80
-	github.com/ugorji/go/codec v1.2.11
+	github.com/ugorji/go/codec v1.3.1
 	github.com/urfave/cli/v2 v2.3.0
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.41.1
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.41.1
